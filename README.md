@@ -4,18 +4,23 @@
 ## Install
 
 Manually copy the folder for each skill to your home skills folder:
+
 `~/.agents/skills/`
 
 Or use npx to install the kills globally for Vibe to use:
+
 `npx skills add asloci/duckdb-skills-for-vibe -g -y`
 
 ## Example usage
 
 Launch Vibe-CLI:
+
 `vibe`
 
 Use /atach-db skill to attach an existing DuckDB file and /query to run some SQL on one of the tables
+
 `/attach-db /path/to/your-database.duckdb`
+
 `/query SELECT * FROM my_table LIMIT 10`
 
 ## Includes
