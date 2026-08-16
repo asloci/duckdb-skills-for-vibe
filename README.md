@@ -17,7 +17,7 @@ Launch Vibe-CLI:
 
 `vibe`
 
-Use /attach-db skill to attach an existing DuckDB file and /query to run some SQL on one of the tables
+Use /attach-db skill to attach an existing DuckDB file and /query to run some SQL on one of the tables:
 
 `/attach-db /path/to/your-database.duckdb`
 
@@ -52,7 +52,13 @@ skills/
 
 Note: Original README.md file and eval.sh script have been removed.
 
+## Future update
+
+Use the maintenance script:
+
+`./sync-upstream.sh`
+
 ## Considerations
 
-- I’m new to all of this but I plan to keep the original duckdb-skills in sync for vibe-cli.
+- I’m new to all of this but I plan to keep the original duckdb-skills in sync for vibe-cli (e.g.: Maintain a Vibe-compatible fork)
 - The temperature for mistral-medium-3.5 is set to 1.0 by default. Consider modifying the temperature to 0.7 or lower at `~/.vibe/config.toml`
