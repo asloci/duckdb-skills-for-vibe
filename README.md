@@ -20,6 +20,7 @@ Use /atach-db skill to attach an existing DuckDB file and /query to run some SQL
 
 ## Includes
 
+```
 skills/
 ├── attach-db/
 │   └── SKILL.md
@@ -42,6 +43,7 @@ skills/
 │   └── references/
 │       ├── functions.md
 │       └── overture.md
+```
 
 Note: Original README.md file and eval.sh script have been removed.
 
