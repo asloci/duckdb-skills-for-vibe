@@ -17,7 +17,7 @@ Launch Vibe-CLI:
 
 `vibe`
 
-Use /atach-db skill to attach an existing DuckDB file and /query to run some SQL on one of the tables
+Use /attach-db skill to attach an existing DuckDB file and /query to run some SQL on one of the tables
 
 `/attach-db /path/to/your-database.duckdb`
 
